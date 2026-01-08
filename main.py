@@ -39,14 +39,16 @@ def get_whatsapp_buttons():
     btn1 = types.InlineKeyboardButton("📦 دبلوم إدارة أعمال التأمين", url="https://chat.whatsapp.com/BnV2peiKf365odX0PjGb63")
     btn2 = types.InlineKeyboardButton("📣 قروب تسويق", url="https://chat.whatsapp.com/FsIsVzwxdNjFmuNsPBQOxw")
     btn3 = types.InlineKeyboardButton("💰 دبلوم مالية ومصرفية", url="https://chat.whatsapp.com/I5HxSO2YCTkAMkS8XzV2tt")
-    btn4 = types.InlineKeyboardButton("👥 دبلوم موارد بشرية", url="https://chat.whatsapp.com/HenxzVBDwBb8ypl1VWonfb")
+    btn4 = types.InlineKeyboardButton("👥 دبلوم موارد بشرية متوسط", url="https://chat.whatsapp.com/Hf6rbdkxutSDLfi9HlGu76")
     btn5 = types.InlineKeyboardButton("⚖️ تجارب وآراء الدكاترة والشعب", url="https://chat.whatsapp.com/L4cxz9XYEXHI3eCG5WZYLx")
+    btn6 = types.InlineKeyboardButton("🎓 قروب التدريب الميداني – التعاوني", url="https://chat.whatsapp.com/JJB3PNRfNxx8KNynwcFBF2")
 
     markup.add(btn1)
     markup.add(btn2)
     markup.add(btn3)
     markup.add(btn4)
     markup.add(btn5)
+    markup.add(btn6)
 
     return markup
 
