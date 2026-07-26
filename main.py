@@ -36,12 +36,12 @@ def get_whatsapp_buttons():
     """ترجع أزرار واتساب شفافة فقط"""
     markup = types.InlineKeyboardMarkup()
     
-    btn1 = types.InlineKeyboardButton("📦 دبلوم إدارة أعمال التأمين", url="https://chat.whatsapp.com/BnV2peiKf365odX0PjGb63")
-    btn2 = types.InlineKeyboardButton("📣 قروب تسويق", url="https://chat.whatsapp.com/FsIsVzwxdNjFmuNsPBQOxw")
-    btn3 = types.InlineKeyboardButton("💰 دبلوم مالية ومصرفية", url="https://chat.whatsapp.com/I5HxSO2YCTkAMkS8XzV2tt")
-    btn4 = types.InlineKeyboardButton("👥 دبلوم موارد بشرية متوسط", url="https://chat.whatsapp.com/Hf6rbdkxutSDLfi9HlGu76")
-    btn5 = types.InlineKeyboardButton("⚖️ تجارب وآراء الدكاترة والشعب", url="https://chat.whatsapp.com/L4cxz9XYEXHI3eCG5WZYLx")
-    btn6 = types.InlineKeyboardButton("🎓 قروب التدريب الميداني – التعاوني", url="https://chat.whatsapp.com/JJB3PNRfNxx8KNynwcFBF2")
+    btn1 = types.InlineKeyboardButton("📦 دبلوم إدارة أعمال التأمين", url="https://chat.whatsapp.com/BnV2peiKf365odX0PjGb6")
+    btn2 = types.InlineKeyboardButton("📣 قروب تسويق", url="https://chat.whatsapp.com/FsIsVzwxdNjFmuNsPBQOx")
+    btn3 = types.InlineKeyboardButton("💰 دبلوم مالية ومصرفية", url="https://chat.whatsapp.com/I5HxSO2YCTkAMkS8XzV2t")
+    btn4 = types.InlineKeyboardButton("👥 دبلوم موارد بشرية متوسط", url="https://chat.whatsapp.com/Hf6rbdkxutSDLfi9HlGu7")
+    btn5 = types.InlineKeyboardButton("⚖️ تجارب وآراء الدكاترة والشعب", url="https://chat.whatsapp.com/L4cxz9XYEXHI3eCG5WZLx")
+    btn6 = types.InlineKeyboardButton("🎓 قروب التدريب الميداني – التعاوني", url="https://chat.whatsapp.com/JJB3PNRfNxx8KNynwcFF2")
 
     markup.add(btn1)
     markup.add(btn2)
