@@ -43,7 +43,7 @@ def get_whatsapp_buttons():
     btn6 = types.InlineKeyboardButton("🎓مستجدين دبلوم جامعة الملك سعود", url="https://t.me/Diploma_New_1447")
     btn7 = types.InlineKeyboardButton("قناه كتب وملخصات وتجميعات الدبلوم", url="https://t.me/KDiplomasSU")
     btn8= types.InlineKeyboardButton("قناه أخبار دبلوم جامعة الملك سعود", url="https://t.me/KSDN_222")
-    btn9= types.InlineKeyboardButton("للانضمام إلى القروب العام في الوتس أرسل اسمك وجدولك", url="https://wa.me/+966577219245")
+    btn9= types.InlineKeyboardButton("للانضمام إلى القروب العام في الوتس أرسل اسمك وجدولك _ ", url="https://wa.me/+966577219245")
     
     markup.add(btn1)
     markup.add(btn2)
