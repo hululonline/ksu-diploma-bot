@@ -68,8 +68,7 @@ def send_unified_message(chat_id, text, reply_keyboard=None, include_whatsapp=Tr
             chat_id,
             text,
             parse_mode="HTML",
-            reply_markup=reply_key
-            board,
+            reply_markup=reply_keyboard,
             disable_web_page_preview=True
         )
     except Exception as e:
