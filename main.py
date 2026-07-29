@@ -892,21 +892,29 @@ h.alshareef@cfy.ksu.edu.sa
 # ------------------------------------------------------------------
 @bot.callback_query_handler(func=lambda call: call.data == "whatsapp_join")
 def whatsapp_join_handler(call):
-
     text = """
-📢 <b>:للانضمام إلى القروب العام أو قروب التخصص، يرجى إرسال:</b>
-✅ الاسم والجدول
-✅ إشعار القبول (بالنسبة للمستجدين)
+╭── 📢 <b>شروط الانضمام إلى قروبات الواتساب</b> ──╮
+مرحبًا بك 🌷
+للانضمام إلى <b> قروب دبلوم جامعة الملك سعود العام </b> أو <b> إحدى قروبات التخصص</b>، يرجى إرسال:
+👤 <b>اسمك كامل</b>  |  📚 <b>الجدول</b>
+📝 <b>إشعار القبول</b> <i>(للمستجدين فقط)</i>
 
-🔗 <a href="https://wa.me/+966577219245">طلب الانضمام</a>
+⬇️ اضغط على الزر أدناه لإرسال طلب الانضمام.
+╰──────────────────────────╯
 """
+    markup = types.InlineKeyboardMarkup()
+    markup.add(
+types.InlineKeyboardButton(
+            "📩 طلب الانضمام",url="https://wa.me/+966577219245"
+        )
+    )
     bot.send_message(
         call.message.chat.id,
         text,
         parse_mode="HTML",
-        disable_web_page_preview=True
-    )
-    bot.answer_callback_query(call.id)
+      reply_markup=markup
+    )  
+    bot.answer_callback_query(call.id) 
     
 @bot.message_handler(commands=['start'])
 def start_handler(message):
