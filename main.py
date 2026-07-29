@@ -893,14 +893,17 @@ h.alshareef@cfy.ksu.edu.sa
 @bot.callback_query_handler(func=lambda call: call.data == "whatsapp_join")
 def whatsapp_join_handler(call):
     text = """
-╭── 📢 <b>شروط الانضمام إلى قروبات الواتساب</b> ──╮
+╭ 📢 <b>شروط الانضمام إلى قروبات الواتساب</b>╮
+
 مرحبًا بك 🌷
 للانضمام إلى <b> قروب دبلوم جامعة الملك سعود العام </b> أو <b> إحدى قروبات التخصص</b>، يرجى إرسال:
+
 👤 <b>اسمك كامل</b>  |  📚 <b>الجدول</b>
+
 📝 <b>إشعار القبول</b> <i>(للمستجدين فقط)</i>
 
 ⬇️ اضغط على الزر أدناه لإرسال طلب الانضمام.
-╰──────────────────────────╯
+╰──────────────────╯
 """
     markup = types.InlineKeyboardMarkup()
     markup.add(
