@@ -4,7 +4,6 @@ import telebot
 from telebot import types
 import requests
 import json
-
 print("=" * 60)
 print("✅ CLEAN BOT VERSION - NO WATERMARK")
 print("✅ CREATED: 2026-01-07")
