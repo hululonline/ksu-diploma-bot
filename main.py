@@ -43,8 +43,7 @@ def get_whatsapp_buttons():
     btn6 = types.InlineKeyboardButton("🎓مستجدين دبلوم جامعة الملك سعود", url="https://t.me/Diploma_New_1447")
     btn7 = types.InlineKeyboardButton("قناه كتب وملخصات وتجميعات الدبلوم", url="https://t.me/KDiplomasSU")
     btn8= types.InlineKeyboardButton("قناه أخبار دبلوم جامعة الملك سعود", url="https://t.me/KSDN_222")
-    btn9= types.InlineKeyboardButton(" _ 📢 للانضمام إلى القروب العام في الوتساب 👥، اضغط على الرابط 🔗 وأرسل اسمك وجدولك لإضافتك في القروب", url="https://wa.me/+966577219245")
-    
+    btn9 = types.InlineKeyboardButton("📢 طلب الانضمام لقروبات الواتساب",callback_data="whatsapp_join")
     markup.add(btn1)
     markup.add(btn2)
     markup.add(btn3)
@@ -891,7 +890,24 @@ h.alshareef@cfy.ksu.edu.sa
 # ------------------------------------------------------------------
 # Handlers - كلها تستخدم دالة الإرسال الموحدة
 # ------------------------------------------------------------------
+@bot.callback_query_handler(func=lambda call: call.data == "whatsapp_join")
+def whatsapp_join_handler(call):
 
+    text = """
+📢 <b>:للانضمام إلى القروب العام أو قروب التخصص، يرجى إرسال:</b>
+✅ الاسم والجدول
+✅ إشعار القبول (بالنسبة للمستجدين)
+
+🔗 <a href="https://wa.me/+966577219245">طلب الانضمام</a>
+"""
+    bot.send_message(
+        call.message.chat.id,
+        text,
+        parse_mode="HTML",
+        disable_web_page_preview=True
+    )
+    bot.answer_callback_query(call.id)
+    
 @bot.message_handler(commands=['start'])
 def start_handler(message):
     chat_id = message.chat.id
