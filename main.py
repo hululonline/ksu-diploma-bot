@@ -36,12 +36,15 @@ def get_whatsapp_buttons():
     """ترجع أزرار واتساب شفافة فقط"""
     markup = types.InlineKeyboardMarkup()
     
-    btn1 = types.InlineKeyboardButton("📦 دبلوم إدارة أعمال التأمين", url="https://chat.whatsapp.com/BnV2peiKf365odX0PjGb6")
-    btn2 = types.InlineKeyboardButton("📣 قروب تسويق", url="https://chat.whatsapp.com/FsIsVzwxdNjFmuNsPBQOx")
-    btn3 = types.InlineKeyboardButton("💰 دبلوم مالية ومصرفية", url="https://chat.whatsapp.com/I5HxSO2YCTkAMkS8XzV2t")
-    btn4 = types.InlineKeyboardButton("👥 دبلوم موارد بشرية متوسط", url="https://chat.whatsapp.com/Hf6rbdkxutSDLfi9HlGu7")
-    btn5 = types.InlineKeyboardButton("⚖️ تجارب وآراء الدكاترة والشعب", url="https://chat.whatsapp.com/L4cxz9XYEXHI3eCG5WZLx")
-    btn6 = types.InlineKeyboardButton("🎓 قروب التدريب الميداني – التعاوني", url="https://chat.whatsapp.com/JJB3PNRfNxx8KNynwcFF2")
+    btn1 = types.InlineKeyboardButton("📦 دبلوم إدارة أعمال التأمين", url="https://t.me/Remote_KSU")
+    btn2 = types.InlineKeyboardButton("📣 قروب تسويق", url="https://t.me/+FdHNuh6x_EkyOGI0")
+    btn3 = types.InlineKeyboardButton("💰 دبلوم مالية ومصرفية", url="https://t.me/KSU_1447")
+    btn4 = types.InlineKeyboardButton("👥 دبلوم موارد بشرية متوسط", url="https://t.me/Human_KSU_1447")
+    btn5 = types.InlineKeyboardButton("دبلوم جامعة الملك سعود_استفسارات عامة", url="https://t.me/KingSaudUniversity6_1448")
+    btn6 = types.InlineKeyboardButton("🎓مستجدين دبلوم جامعة الملك سعود", url="https://t.me/Diploma_New_1447")
+    btn7 = types.InlineKeyboardButton("قناه كتب وملخصات وتجميعات الدبلوم", url="https://t.me/KDiplomasSU")
+    btn8= types.InlineKeyboardButton("قناه أخبار دبلوم جامعة الملك سعود", url="https://t.me/KSDN_222")
+    
 
     markup.add(btn1)
     markup.add(btn2)
@@ -49,6 +52,8 @@ def get_whatsapp_buttons():
     markup.add(btn4)
     markup.add(btn5)
     markup.add(btn6)
+    markup.add(btn7)
+    markup.add(btn8)
 
     return markup
 
@@ -75,7 +80,7 @@ def send_unified_message(chat_id, text, reply_keyboard=None, include_whatsapp=Tr
         try:
             bot.send_message(
                 chat_id,
-                "<b>🔗 روابط مجتمعات الواتساب:</b>",
+                "<b>🔗 روابط قروبات الدبلوم :</b>",
                 parse_mode="HTML",
                 reply_markup=get_whatsapp_buttons(),
                 disable_web_page_preview=True
