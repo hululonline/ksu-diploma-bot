@@ -44,6 +44,7 @@ def get_whatsapp_buttons():
     btn7 = types.InlineKeyboardButton("قناه كتب وملخصات وتجميعات الدبلوم", url="https://t.me/KDiplomasSU")
     btn8= types.InlineKeyboardButton("قناه أخبار دبلوم جامعة الملك سعود", url="https://t.me/KSDN_222")
     btn9= types.InlineKeyboardButton(" لدخول قروبات الدبلوم في الواتساب ارسل اسمك وجدولك إلى هذا الرقم", url="https://wa.me/+966577219245")
+    
     markup.add(btn1)
     markup.add(btn2)
     markup.add(btn3)
@@ -53,7 +54,9 @@ def get_whatsapp_buttons():
     markup.add(btn7)
     markup.add(btn8)
     markup.add(btn9)
+    
     return markup
+    
 def send_unified_message(chat_id, text, reply_keyboard=None, include_whatsapp=True):
     """
     ❗ الدالة الوحيدة المسموح بها للإرسال في البوت كله
