@@ -903,7 +903,7 @@ def whatsapp_join_handler(call):
 📝 <b>إشعار القبول</b> <i>(للمستجدين فقط)</i>
 
 ⬇️ اضغط على الزر أدناه لإرسال طلب الانضمام.
-╰──────────────────╯
+╰────────────╯
 """
     markup = types.InlineKeyboardMarkup()
     markup.add(
