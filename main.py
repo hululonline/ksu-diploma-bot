@@ -39,7 +39,7 @@ def get_whatsapp_buttons():
     btn2 = types.InlineKeyboardButton("📣 قروب تسويق", url="https://t.me/+FdHNuh6x_EkyOGI0")
     btn3 = types.InlineKeyboardButton("💰 دبلوم مالية ومصرفية", url="https://t.me/KSU_1447")
     btn4 = types.InlineKeyboardButton("👥 دبلوم موارد بشرية متوسط", url="https://t.me/Human_KSU_1447")
-    btn5 = types.InlineKeyboardButton(" _💬 استفسارات عامة دبلوم جامعة الملك سعود", url="https://t.me/KingSaudUniversity6_1448")
+    btn5 = types.InlineKeyboardButton("_ 💬 استفسارات عامة دبلوم جامعة الملك سعود", url="https://t.me/KingSaudUniversity6_1448")
     btn6 = types.InlineKeyboardButton("🎓 مستجدين دبلوم جامعة الملك سعود", url="https://t.me/DiplomaUpdates_1448")
     btn7 = types.InlineKeyboardButton("📚 قناه كتب وملخصات وتجميعات الدبلوم", url="https://t.me/KDiplomasSU")
     btn8= types.InlineKeyboardButton("📰 قناه أخبار دبلوم جامعة الملك سعود", url="https://t.me/KSDN_222")
