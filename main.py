@@ -40,7 +40,7 @@ def get_whatsapp_buttons():
     btn3 = types.InlineKeyboardButton("💰 دبلوم مالية ومصرفية", url="https://t.me/KSU_1447")
     btn4 = types.InlineKeyboardButton("👥 دبلوم موارد بشرية متوسط", url="https://t.me/Human_KSU_1447")
     btn5 = types.InlineKeyboardButton("دبلوم جامعة الملك سعود_استفسارات عامة", url="https://t.me/KingSaudUniversity6_1448")
-    btn6 = types.InlineKeyboardButton("🎓مستجدين دبلوم جامعة الملك سعود", url="https://t.me/Diploma_New_1447")
+    btn6 = types.InlineKeyboardButton("🎓مستجدين دبلوم جامعة الملك سعود", url="https://t.me/DiplomaUpdates_1448")
     btn7 = types.InlineKeyboardButton("قناه كتب وملخصات وتجميعات الدبلوم", url="https://t.me/KDiplomasSU")
     btn8= types.InlineKeyboardButton("قناه أخبار دبلوم جامعة الملك سعود", url="https://t.me/KSDN_222")
     btn9 = types.InlineKeyboardButton("📢 طلب الانضمام لقروبات الواتساب",callback_data="whatsapp_join")
@@ -131,7 +131,7 @@ def get_main_keyboard():
 # كامل bot_content (بدون روابط واتساب في النصوص)
 # ------------------------------------------------------------------
 bot_content = {
-    "تقويم عام 1447ه‍.": "<b>🔹 التقويم الأكاديمي لجامعة الملك سعود للعام الدراسي 2025 / 2026م (1447هـ):</b>\n\n<a href=\"https://t.me/KSDN_222/85\">اضغط هنا لمشاهدة التقويم الأكاديمي 👇</a>",
+    "تقويم عام 1447ه‍.": "<b> 📅التقويم الأكاديمي لجامعة الملك سعود للعام الدراسي 2027/2026(1448هـ):</b>\n\n<a href=\"https://t.me/KSDN_222/248\">اضغط هنا لمشاهدة التقويم الأكاديمي 👇</a>",
     "خدمات التواصل مع الجامعة": """عمادة السنة الأولى المشتركة
 SSHELP@CFY.KSU.EDU.SA
 00966-114694006
@@ -597,10 +597,11 @@ h.alshareef@cfy.ksu.edu.sa
 🛑مقطع فيديو شرح استخدام -البلاك بورد/ Blackboard -> <a href="https://t.me/Diploma_Solutions/16">عرض الفيديو</a>
 
 • للدخول هنا قروب - مستجدين الدبلوم👇🏻
-<a href="https://t.me/Diploma_New_1447">قروب مستجدين الدبلوم</a>
+<a href="https://t.me/DiplomaUpdates_1448">قروب مستجدين الدبلوم</a>
+<a href="https://t.me/Diploma_New_1447">قناة مستجدين الدبلوم</a>
 
-♻️ قروبات -استفسارات الدبلوم ↪️
-<a href="https://t.me/book_KSU_1447">قروبات استفسارات الدبلوم</a>
+♻️ قروب -استفسارات الدبلوم ↪️
+<a href="https://t.me/KingSaudUniversity6_1448">قروب استفسارات الدبلوم</a>
 
 ◆بوت المساعدة - دبلوم جامعة الملك سعود->
 <a href="https://t.me/KingSaudDiploma_bot">بوت المساعدة</a>""",
@@ -722,8 +723,9 @@ h.alshareef@cfy.ksu.edu.sa
 ✍️ دمتم بود وتوفيق دائم بإذن الله 🌿""",
         "كتب و ملخصات مواد الدبلوم عن بعد 📚 PDF": """قناه خاصه كتب وملخصات وتجميعات والاختبارات الذاتية مواد دبلوم جامعة الملك سعود
 
-📌 رابط قناة مستجدين دبلوم الملك سعود
-<a href="https://t.me/Diploma_New_1447">قروب مستجدين دبلوم الملك سعود</a>
+📌 رابط قروب مستجدين دبلوم الملك سعود
+<a href="https://t.me/DiplomaUpdates_1448">قروب مستجدين دبلوم الملك سعود</a>
+<a href="https://t.me/Diploma_New_1447">قناة مستجدين دبلوم الملك سعود</a>
 
 رابط القناة
 <a href="https://t.me/KDiplomasSU">قناة الكتب والملخصات</a>"""
@@ -750,11 +752,11 @@ h.alshareef@cfy.ksu.edu.sa
     "قروبات المواد للمستجدين": """
 ⚜️◾<b>قروبات مواد الدبلوم للمستجدين</b>◾⚜️
 
-🔗قروب عام مستجدين دبلوم سعود: <a href="https://t.me/Diploma_New_1447">اضغط هنا للانضمام</a>
+🔗قروب عام مستجدين دبلوم سعود: <a href="https://t.me/DiplomaUpdates_1448">اضغط هنا للانضمام</a>
 
-📌قروب اللغة الإنجليزية(1): <a href="https://t.me/English_1447">اضغط هنا للانضمام</a>
+📌قروب اللغة الإنجليزية(1): <a href="https://t.me/+Y8HBw_t16hg4OWNk">اضغط هنا للانضمام</a>
 
-📌قروب اللغة الإنجليزية(2): <a href="https://t.me/English2_1447">اضغط هنا للانضمام</a>
+📌قروب اللغة الإنجليزية(2): <a href="https://t.me/+HyVVQk9cAmc1MTg0">اضغط هنا للانضمام</a>
 
 📌قروب مهارات الحاسب الالي(1): <a href="https://t.me/Computer_Skills_1447">اضغط هنا للانضمام</a>
 
@@ -791,7 +793,9 @@ h.alshareef@cfy.ksu.edu.sa
 
 ◆مقدمة في الإحصاء: <a href="https://t.me/KDiplomasSU/465?single">عرض الملخصات</a>
 
-✅قروب المستجدين: <a href="https://t.me/Diploma_New_1447">اضغط هنا للانضمام</a>
+✅قناة المستجدين:
+<a href="https://t.me/Diploma_New_1447">اضغط هنا للانضمام</a>
+<a href="https://t.me/DiplomaUpdates_1448">اضغط هنا للانضمام</a>
 
 ○بوت المساعدة - دبلوم جامعة الملك سعود: <a href="https://t.me/KingSaudDiploma_bot">اضغط هنا لبدء المحادثة</a>
 
@@ -878,10 +882,11 @@ h.alshareef@cfy.ksu.edu.sa
 🛑مقطع فيديو شرح استخدام -البلاك بورد/ Blackboard -> <a href="https://t.me/Diploma_Solutions/16">عرض الفيديو</a>
 
 • للدخول هنا قروب - مستجدين الدبلوم👇🏻
-<a href="https://t.me/Diploma_New_1447">قروب مستجدين الدبلوم</a>
+<a href="https://t.me/DiplomaUpdates_1448">قروب مستجدين الدبلوم</a>
+<a href="https://t.me/Diploma_New_1447">قناة مستجدين الدبلوم</a>
 
-♻️ قروبات -استفسارات الدبلوم ↪️
-<a href="https://t.me/book_KSU_1447">قروبات استفسارات الدبلوم</a>
+♻️ قروب -استفسارات الدبلوم ↪️
+<a href="https://t.me/KingSaudUniversity6_1448">قروب استفسارات الدبلوم</a>
 
 ◆بوت المساعدة - دبلوم جامعة الملك سعود->
 <a href="https://t.me/KingSaudDiploma_bot">بوت المساعدة</a>"""
